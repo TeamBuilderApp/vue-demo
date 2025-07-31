@@ -1,9 +1,11 @@
-# vue-demo
-
-> A Vue.js project
+### Tech Stack:
+```shell
+Vue.js, Bulma
+Error Handling
+Deployment
+```
 
 ## Build Setup
-
 ``` bash
 # install dependencies
 npm install
@@ -16,9 +18,15 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
+```
+
+Created Repo:
+cd to root
+git init
 
 
-#Commands run for this project:
+### Commands That Have Been Run:
+```shell
 npm install --save-dev typescript ts-loader
 npm install --save-dev webpack-dev-server 
 npm install bulma
@@ -29,10 +37,22 @@ npm run build-bulma
 npm install sass sass-loader style-loader --save-dev 
 ```
 
+### Run this app locally
+
+```shell
+npm run build
+```
+
+### Start the app
+
+```shell
+npm run dev
+```
+
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-
-About Me:
+### About Me:
+```shell
 <br /><b>Welcome to my Vue.js UI/UX portfolio demo!</b><br />
 My name is Christopher Peterson. As a Full-Stack Senior Software
 Engineer, I began learning front-end UI/UX not only to well-round my
@@ -45,10 +65,12 @@ GitHub link below:<br />
 https://github.com/TeamBuilderApp?tab=repositories <br />
 <b>LinkedIn:</b>
 https://www.linkedin.com/in/christopher-peterson-86728a303/
+```
 
 
-
-References:
+### References:
+```shell
 https://www.udemy.com/
 https://bulma.io/
 https://www.lipsum.com/
+```
