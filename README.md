@@ -42,9 +42,8 @@ The code for this project, as well as my others, can be found at the
 GitHub link below:<br />
 <b>Email:</b> cpeterson.software.engineering@gmail.com<br />
 <b>Phone:</b> (517) 297-5674 <br /><b>GitHub:</b>
-https://github.com/TeamBuilderApp?tab=repositories <br /><b
->LinkedIn:</b
->
+https://github.com/TeamBuilderApp?tab=repositories <br />
+<b>LinkedIn:</b>
 https://www.linkedin.com/in/christopher-peterson-86728a303/
 
 
