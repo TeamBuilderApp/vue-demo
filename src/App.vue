@@ -81,7 +81,7 @@
               My Vue.js UIUX portfolio demo by software engineer, Christopher
               Peterson.
               <br /><b>Email:</b> cpeterson.software.engineering@gmail.com
-              <br /><b>Phone:</b> (517) 297-5674 <br /><a
+              <br /><b>Phone:</b> (517) 297-5674 <br /><a href="https://mern-demo-49es.onrender.com/">Here's my MERN Demo!</a><br /><a
                 class="icon"
                 href="https://github.com/TeamBuilderApp?tab=repositories"
                 ><i class="fab fa-github"></i
