@@ -3,18 +3,17 @@
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "Christopher Peterson <teambuilderapp2@gmail.com>",
-  "private": true,
-  "dependencies": {
-    "axios": "^0.25.0",
-    "bulma": "^1.0.4",
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
-  },
+"private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js && npm run build-bulma -- --watch",
-    "build-bulma": "sass --load-path=node_modules ./src/assets/mediaQuery.scss ./src/assets/mediaQuery.css",
-    "start": "npm run build-bulma -- --watch",
-    "build": "node build/build.js && npm run build-bulma"
+    "dev": "node build/dev-server.js",
+    "start": "node build/dev-server.js",
+    "build": "node build/build.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "bulma": "^0.4.1",
+    "vue": "^2.3.3",
+    "vue-router": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -27,13 +26,17 @@
     "babel-preset-env": "^1.3.2",
     "babel-preset-stage-2": "^6.22.0",
     "chalk": "^2.0.1",
+    "connect-history-api-fallback": "^1.3.0",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.0",
+    "eventsource-polyfill": "^0.9.6",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
     "html-webpack-plugin": "^2.30.1",
+    "http-proxy-middleware": "^0.17.3",
     "node-notifier": "^5.1.2",
+    "opn": "^4.0.2",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "ora": "^1.2.0",
     "portfinder": "^1.0.13",
@@ -56,7 +59,8 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.11.5",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-hot-middleware": "^2.18.0",
     "webpack-merge": "^4.1.0"
   },
   "engines": {

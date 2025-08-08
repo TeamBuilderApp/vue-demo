@@ -124,7 +124,8 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 <style lang="scss">
-@import "../node_modules/bulma/bulma.scss";
+//Todo come back and visit on if there's a bulma.scss version.
+//@import "../node_modules/bulma/bulma.scss";
 @import "./assets/mediaQuery.scss";
 
 .navbar {
