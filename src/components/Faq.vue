@@ -49,7 +49,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
 <style lang="scss" scoped>
-@import "../assets/mediaQuery.scss";
+@use "../assets/mediaQuery.scss";
 .answer {
   margin-top: 10px !important;
   color: gray;

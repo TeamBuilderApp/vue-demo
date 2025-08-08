@@ -96,20 +96,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-@import "../assets/mediaQuery.scss";
+@use "../assets/mediaQuery.scss";
 
 .hero {
   background: url("../assets/clouds2.png");
   background-size: cover;
 
   .title {
-    @include mobile {
+    @include mediaQuery.mobile {
       font-weight: bold;
     }
-    @include tablet {
+    @include mediaQuery.tablet {
       font-size: 2.5rem;
     }
-    @include desktop {
+    @include mediaQuery.desktop {
       font-size: 4rem;
       margin-top: 2rem;
     }
@@ -122,12 +122,12 @@ h2 {
   font-size: 40px;
 }
 #learn {
-  @include desktop {
+  @include mediaQuery.desktop {
     margin-bottom: 2rem;
   }
 }
 .pd {
-  @include tablet {
+  @include mediaQuery.tablet {
     padding: 2em 0;
   }
 }

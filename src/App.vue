@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <style lang="scss">
 //Todo come back and visit on if there's a bulma.scss version.
 //@import "../node_modules/bulma/bulma.scss";
-@import "./assets/mediaQuery.scss";
+@use "./assets/mediaQuery.scss";
 
 .navbar {
   background-color: #383838;
@@ -138,7 +138,7 @@ document.addEventListener("DOMContentLoaded", () => {
 a.r-item {
   color: #c1c1c1;
   padding: 0.5rem 1.75rem;
-  @include mobile {
+  @include mediaQuery.mobile {
     color: gray;
     &:hover {
       background-color: #f1f1f1;
@@ -151,7 +151,7 @@ a.r-item {
 }
 
 footer {
-  background-color: $primary !important;
+  background-color: mediaQuery.$primary !important;
   color: #fff;
 
   .icon {
